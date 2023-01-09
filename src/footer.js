@@ -37,7 +37,7 @@ export default function Footer() {
             <li>Tel: +234 800 123 5976, 700 125 7088</li>
           </ul>
 
-          <div>
+          <div className="footer-icon">
             <img src={facebook} alt="facebook" width="42.35px" />
             <img src={twitter} alt="twitter" width="42.35px" />
             <img src={instagram} alt="instagram" width="42.35px" />

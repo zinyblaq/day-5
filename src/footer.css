@@ -1,0 +1,41 @@
+.footer{
+    /*  */
+    
+    background: rgba(25, 29, 108, 0.9);
+    mix-blend-mode: normal;
+}
+.main-footer{
+    margin: 40px 135px;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   /* align-items: flex-start; */
+    
+
+}
+.footer-1 h3{
+    ont-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+
+color: #FFFFFF;
+
+}
+.footer-1-links{
+    list-style: none;
+    /* margin: auto; */
+    padding: 0;
+}
+.footer-2-links{
+    list-style: none;
+    /* margin: auto; */
+    padding: 0;
+}
+.footer-3-links{
+    list-style: none;
+    /* margin: auto; */
+    padding: 0;
+}

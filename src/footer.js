@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.css';
-import instagram from './instagram.png';
-import linkedin from './linkedin.png';
-import twitter from './twitterpng.png';
-import facebook from './Vector.png';
+import instagram from './instagrampng.png';
+import linkedin from './linkedinpng.png';
+import twitter from './twitter.png';
+import facebook from './facebook.png';
 export default function Footer() {
   return (
     <div className="footer">
@@ -25,7 +25,12 @@ export default function Footer() {
           <ul className="footer-2-links">
             <li>Subscribe to our weekly Newsletter</li>
             <li>
-              <input type="text" name="email" placeholder="Enter email"></input>
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter email"
+                className="footer-input"
+              ></input>
             </li>
           </ul>
           <button className="submit-btn">SUBMIT</button>
@@ -38,35 +43,18 @@ export default function Footer() {
           </ul>
 
           <div className="footer-icon">
-            <ul>
-              <li>
-                <img src={facebook} alt="facebook" width="11px" height="18px" />
-              </li>
-              <li>
-                <img
-                  src={twitter}
-                  alt="twitter"
-                  width="17.96px"
-                  height="14.59px"
-                />
-              </li>
-              <li>
-                <img
-                  src={instagram}
-                  alt="instagram"
-                  width="15.75px"
-                  height="15.75px"
-                />
-              </li>
-              <li>
-                <img
-                  src={linkedin}
-                  alt="linkedin"
-                  width="15.75px"
-                  height="15.75px"
-                />
-              </li>
-            </ul>
+            <a href="/">
+              <img src={facebook} alt="facebook" />
+            </a>
+            <a href="/">
+              <img src={twitter} alt="twitter" />
+            </a>
+            <a href="/">
+              <img src={instagram} alt="instagram" />
+            </a>
+            <a href="/">
+              <img src={linkedin} alt="linkedin" />
+            </a>
           </div>
           <div className="terms">
             <h3>Terms & Conditions</h3>

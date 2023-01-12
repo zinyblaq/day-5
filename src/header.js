@@ -14,7 +14,7 @@ export default function Header() {
 
           <li className="header-list">Blogs</li>
           <li className="header-list">Partnership</li>
-          <li className="header-contact">Contact Us</li>
+          <li className="button-primary">Contact Us</li>
         </ul>
       </div>
     </div>

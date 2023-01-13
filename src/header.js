@@ -9,7 +9,9 @@ export default function Header() {
       </div>
       <div className="header-2">
         <ul className="header-lists">
-          <li className="header-list">Company</li>
+          <li className="header-list">
+            <a href="./companypage.js"> Company</a>
+          </li>
           <li className="header-list">How it works</li>
 
           <li className="header-list">Blogs</li>

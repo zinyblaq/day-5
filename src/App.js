@@ -2,6 +2,7 @@ import './App.css';
 // import Header from './header';
 // import Footer from './footer';
 import LandingPage from './Landing-page';
+import CompanyPage from './companypage';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <Header /> */}
       {/* <Footer /> */}
       <LandingPage />
+      <CompanyPage />
     </div>
   );
 }
